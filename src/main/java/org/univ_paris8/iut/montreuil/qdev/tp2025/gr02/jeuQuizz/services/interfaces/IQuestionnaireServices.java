@@ -9,6 +9,6 @@ import java.util.List;
 
 public interface IQuestionnaireServices {
 
-    List<QuestionnaireDTO> fournirListeQuestionnaires(String path) throws ChargementFichierException;
+    public List<QuestionnaireDTO> fournirListeQuestionnaires(String path) throws ChargementFichierException;
 
 }
